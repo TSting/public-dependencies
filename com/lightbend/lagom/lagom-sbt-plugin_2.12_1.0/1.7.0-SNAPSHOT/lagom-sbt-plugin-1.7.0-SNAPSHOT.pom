@@ -34,7 +34,7 @@
         <scalaVersion>2.12</scalaVersion>
         <sbtVersion>1.0</sbtVersion>
         <extraDependencyAttributes xml:space="preserve">+e:sbtVersion:#@#:+1.0:#@#:+module:#@#:+lagom-sbt-build-tool-support:#@#:+e:scalaVersion:#@#:+2.12:#@#:+organisation:#@#:+com.lightbend.lagom:#@#:+branch:#@#:+@#:NULL:#@:#@#:+revision:#@#:+1.7.0-SNAPSHOT:#@#:
-+e:sbtVersion:#@#:+1.0:#@#:+module:#@#:+sbt-plugin:#@#:+e:scalaVersion:#@#:+2.12:#@#:+organisation:#@#:+com.typesafe.play:#@#:+branch:#@#:+@#:NULL:#@:#@#:+revision:#@#:+2.9.1-SNAPSHOT:#@#:</extraDependencyAttributes>
++e:sbtVersion:#@#:+1.0:#@#:+module:#@#:+sbt-plugin:#@#:+e:scalaVersion:#@#:+2.12:#@#:+organisation:#@#:+com.typesafe.play:#@#:+branch:#@#:+@#:NULL:#@:#@#:+revision:#@#:+2.9.0-SNAPSHOT:#@#:</extraDependencyAttributes>
     </properties>
     <dependencies>
         <dependency>
@@ -86,7 +86,7 @@
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>sbt-plugin</artifactId>
-            <version>2.9.1-SNAPSHOT</version>
+            <version>2.9.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
